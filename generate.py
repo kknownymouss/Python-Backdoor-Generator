@@ -38,6 +38,11 @@ def main() -> None:
     # convert payload.py to exe
     convert_to_exe()
     time.sleep(2)
+
+    # Display folders in which the output source code and exe are found in
+    print("\n" * 5)
+    print("[LOCATION] generated executable payload.exe is in output/executable\n")
+    print("[LOCATION] generated source code payload.py is in output/source/")
     
 
 if __name__ == "__main__":
